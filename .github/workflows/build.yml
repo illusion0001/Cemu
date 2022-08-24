@@ -11,8 +11,6 @@ on:
   push:
     paths-ignore:
       - '*.md'
-    branches:
-      - main
   workflow_call:
     inputs:
       deploymode:
